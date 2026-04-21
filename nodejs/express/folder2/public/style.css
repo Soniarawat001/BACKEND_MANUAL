@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; 
+}
+.navbar h4 {
+  
+  margin: 0;
+  padding: 15px 20px;
+}
+.navbar li:nth-child(2) {
+  margin-left: auto;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+ 
+}
+
+.box{
+  display: flex;
+}
+
+.form{
+  margin-left:15px;
+}
+
+  

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+    
+    <h2> name: <%= stu.name %></h2>
+    <h2>Roll no.: <%= stu.roll %></h2>
+    <h2>email id: <%= stu.email %></h2>
+    <h2>age: <%= stu.age %></h2>
+    <h2>hobbies:
+        <% stu.hobbies.forEach((hob) => { %>
+            <%= hob %>
+        <% }); %>
+        </h2>
+</body>
+</html>
